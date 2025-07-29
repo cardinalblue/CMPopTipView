@@ -56,7 +56,7 @@
 		837E311417CF6D1800C6F242 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		839195F51377FE2700FC65F9 /* appicon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon57.png; path = Resources/appicon57.png; sourceTree = "<group>"; };
 		839195F61377FE2700FC65F9 /* appicon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon114.png; path = Resources/appicon114.png; sourceTree = "<group>"; };
-		83FEEE44128E496A007C310F /* CMPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPopTipView.h; sourceTree = "<group>"; };
+		83FEEE44128E496A007C310F /* CMPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMPopTipView.h; path = include/CMPopTipView.h; sourceTree = "<group>"; };
 		83FEEE45128E496A007C310F /* CMPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPopTipView.m; sourceTree = "<group>"; };
 		83FEEE5E128E4F98007C310F /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo1ViewController.h; path = Shared/Demo1ViewController.h; sourceTree = "<group>"; };
 		83FEEE5F128E4F98007C310F /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo1ViewController.m; path = Shared/Demo1ViewController.m; sourceTree = "<group>"; };
@@ -341,7 +341,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CMPopTipViewDemo_Prefix.pch;
 				INFOPLIST_FILE = "CMPopTipViewDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CMPopTipViewDemo;
 			};
@@ -356,7 +356,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CMPopTipViewDemo_Prefix.pch;
 				INFOPLIST_FILE = "CMPopTipViewDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CMPopTipViewDemo;
 				VALIDATE_PRODUCT = YES;
@@ -393,7 +393,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = CMPopTipViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.ikhsan.$(PRODUCT_NAME:rfc1034identifier)";
@@ -427,7 +427,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = CMPopTipViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.ikhsan.$(PRODUCT_NAME:rfc1034identifier)";
